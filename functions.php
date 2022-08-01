@@ -105,7 +105,7 @@ function isSecurity($wallpaper){
         return false;
     }
 
-    if($size > 5 * 1024 * 1024) return false;
+    if($size > 7 * 1024 * 1024) return false;
     return true;
 }
 

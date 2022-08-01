@@ -17,7 +17,7 @@ if(isset($_POST["changewall"])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Change wallpaper</title>
+    <title>Change</title>
 </head>
 
 <body>
@@ -36,10 +36,10 @@ if(isset($_POST["changewall"])){
         unset($message);
     }
     ?>
-        <h1>Change wallpaper</h1>
+        <h1>Изменить обои</h1>
         <form id="form1" action="changewall.php" method="post" enctype="multipart/form-data">
             <p><input type="file" name="wallpaper"></p>
-            <p><input type="submit" name="changewall" value="Change"></p>
+            <p><input type="submit" name="changewall" value="Изменить"></p>
         </form>
         <a href="index.php">Вернуться</a>
     </div>

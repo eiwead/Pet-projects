@@ -48,11 +48,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WelCUM</title>
     <link rel="stylesheet" href="./css/formstyle.css">
 </head>
 
@@ -61,24 +62,24 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         <form method="post">
 
             <div class="form sign-in">
-                <h2>Sign In</h2>
+                <h2>Вход</h2>
                 <label>
-                    <span>Login Address</span>
+                    <span>Логин</span>
                     <input type="text" name="userName">
                 </label>
                 <label>
-                    <span>Password</span>
+                    <span>Пароль</span>
                     <input type="password" name="userPwd">
                 </label>
-                <a href="index.php"></a> <button class="submit" type="submit">Sign In</button>
-                <p class="forgot-pass">Forgot Password ?</p>
+                <a href="index.php"></a> <button class="submit" type="submit">Войти</button>
+                <!-- <p class="forgot-pass">Forgot Password ?</p> -->
 
                 <div class="social-media">
                     <ul>
-                        <li><img src="img/facebook.png"></li>
-                        <li><img src="img/twitter.png"></li>
-                        <li><img src="img/linkedin.png"></li>
-                        <li><img src="img/instagram.png"></li>
+                        <li> <a href=""><img src="https://api.iconify.design/cib/vk.svg?color=blue"></a> </li>
+                        <li> <a href=""><img src="https://api.iconify.design/akar-icons/github-fill.svg"></a> </li>
+                        <li> <a href=""><img src="https://api.iconify.design/logos/telegram.svg"></a> </li>
+                        <li> <a href=""><img src="https://api.iconify.design/entypo-social/youtube-with-circle.svg?color=red"></a> </li>
                     </ul>
                 </div>
             </div>
@@ -89,34 +90,34 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                 <div class="img-text m-up">
                     <h2>В первый раз?</h2>
-                    <p>Зарегистрируйтесь и наслаждайтесь !</p>
+                    <p>Зарегистрируйтесь!!!!</p>
                 </div>
                 <div class="img-text m-in">
-                    <h2>One of us?</h2>
-                    <p>If you already has an account, just sign in. We've missed you!</p>
+                    <h2>Уже были здесь?!</h2>
+                    <p>При наличии аккаунта вам необходимо только войти</p>
                 </div>
                 <div class="img-btn">
-                    <span class="m-up">Sign Up</span>
-                    <span class="m-in">Sign In</span>
+                    <span class="m-up">Создать</span>
+                    <span class="m-in">Войти</span>
                 </div>
             </div>
             <div class="form sign-up">
                 <form action="signup.php" method="post">
 
-                    <h2>Sign Up</h2>
+                    <h2>Зарегистрироваться</h2>
                     <label>
-                        <span>Name</span>
+                        <span>Логин</span>
                         <input type="text" name="userName">
                     </label>
                     <label>
-                        <span>Password</span>
+                        <span>Пароль</span>
                         <input type="password" name="userPwd">
                     </label>
                     <label>
-                        <span>Confirm Password</span>
+                        <span>Подтвердите пароль</span>
                         <input type="password" name="confirmPwd">
                     </label>
-                    <button type="submit" name="signup" class="submit">Sign Up Now</button>
+                    <button type="submit" name="signup" class="submit">Зарегистрироваться</button>
                 </form>
             </div>
         </div>
