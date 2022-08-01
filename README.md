@@ -1,12 +1,14 @@
 # Pet-projects
 
+### Делал для себя, с целью познать работу с API и БД
+
 Изначально имеем такое, снизу(справа - погода(нельзя выбрать, разве что в коде), слева функция выбора картинки)
 
 В верхнем правом углу вход в аккаунт
 
 ![alt-текст](https://sun9-85.userapi.com/impg/cfYQTDsBsgQ_isMajdjm2OSQEH_PvpYvUJrNyw/B0gFoWt7Xhs.jpg?size=1920x970&quality=96&sign=6ae2c96d0d7fa4b7468128fa8ffb293f&type=album "Текст заголовка логотипа 1")
 
-Вход и регистрация выглядят так:
+Вход и регистрация выглядят так(нагло украл, сам разве что изменил надписи и картинки ♥):
 
 ![alt-текст](https://sun9-75.userapi.com/impg/b7tpRjuKhExPvctsNiiIfqbPXjeieXEyPrMEfw/UEiGaXc4c3Q.jpg?size=1920x967&quality=96&sign=7efce22a8b62f207902eabdd3cead4ac&type=album "Текст заголовка логотипа 1")
 ![alt-текст](https://sun9-87.userapi.com/impg/t6yvyTQg-zGb4NU3IxmD573MFZ8dD2u6lQaLSg/7y_Eel_NQ7A.jpg?size=1920x966&quality=96&sign=f17ead0695cfdfb3c95381b7bcd148c0&type=album "Текст заголовка логотипа 1")
